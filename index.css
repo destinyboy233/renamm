@@ -1,0 +1,337 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:RGB(221, 226, 231);
+}
+.navbar1{
+    background-color:RGB(221, 226, 231);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+.navbar{
+    background: #f2f2f2;
+}
+
+.navbar h1{
+   margin-left: 12px;
+   font-size: larger;
+   font-weight: 900;
+   font-family: Verdana, Geneva, Tahoma, sans-serif; 
+   text-transform: capitalize;
+   padding-top: 12px;
+
+}
+
+.sectionB{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+.sectionB > div{
+    flex: 1;
+    width: 100%;
+}
+.sectionB div:first-child{
+    display: flex;
+    justify-content: center;
+}
+.sectionB h3{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin: 0 20px 0 0;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: -4px;
+   
+}
+.sectionB .image img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.sectionB .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionB h1{
+    font-size: 3.75rem;
+    letter-spacing: -1px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    padding: 0;
+    word-wrap: break-word;
+    position: relative;
+    color: #ec3b09 !important;
+    margin-inline-start: 0px;
+    margin-block-end: 0px;
+    margin-top: -4px;
+}
+.sectionB p{
+    font-style: italic;
+    margin: 20px 20px 0 0;
+    font-weight: 400;
+    line-height: 1.7;
+    font-size: 1.125rem;
+    word-wrap: break-word;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: left;
+    pointer-events: initial;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5px;
+}
+.sectionB .button button{
+    background-color: orangered;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5%;
+    background-image: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-style: none;
+    font-weight: 700;
+ margin: 0 auto;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+}
+
+ 
+ .sectionA1{
+    background: orangered;
+    display: inline-block;
+    padding: 20px;
+   
+    
+}
+.sectionA1:hover {
+    background: darkblue;
+    border-radius: 30px;
+    transition: 1s ease-out;
+  }
+ .sectionA1  p{
+ text-transform: capitalize;
+ font-style: italic;
+ font-weight: 400;
+ text-align: center;
+ color: white;
+}
+.sectionA1 img{
+    border-radius: 50%;
+}
+ 
+ .sectionA1 h1{
+    margin-left: 0;
+    margin-right: 0;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2.25rem;
+    margin: 30px 2px 0;
+    line-height: 1.1;
+    padding: 0;
+    display: block;
+    color: white;
+}
+ .sectionA1 .button2 button{
+    background-color: #ffffff !important;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-top: 20px;
+    display: table;
+    cursor: pointer;
+    border: 0 none transparent;
+    outline-width: 0;
+    font-style: initial;
+    white-space: nowrap;
+    user-select: none;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 0;
+    align-self: flex-start;
+    color: #ec3b09;
+    text-transform: uppercase;
+}
+.sectionA1 .button2 button:hover{
+    color: darkblue;
+}
+.sectionA1 a{
+    text-decoration: none;
+}
+
+ .sectionA2{
+    background: #fb6f00;
+    display: inline-block;
+    padding: 20px;
+   
+}
+.sectionA2 img{
+    border-radius: 50%;
+}
+ .sectionA2 p{
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+ .sectionA2 h1{
+    margin-left: 0;
+    margin-right: 0;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2.25rem;
+    margin: 30px 2px 0;
+    line-height: 1.1;
+    padding: 0;
+    display: block;
+    color: white;
+}
+ .sectionA2 img{
+    padding-top: -7px;
+}
+
+ .sectionA2 .button2 button{
+    background-color: #ffffff !important;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-top: 20px;
+    display: table;
+    cursor: pointer;
+    border: 0 none transparent;
+    outline-width: 0;
+    font-style: initial;
+    white-space: nowrap;
+    user-select: none;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 0;
+    align-self: flex-start;
+    color: #fb6f00;
+    text-transform: uppercase;
+
+}
+.sectionA2 .button2 button:hover{
+    color: red;
+}
+.sectionA2 a{
+    text-decoration: none;
+}
+
+ .sectionA3 {
+    background: RGB(252, 154, 76);
+    display: inline-block;
+    padding: 20px;
+    
+
+}
+ .sectionA3 img{
+    border-radius: 50%;
+}
+ .sectionA3 h1{
+    color: #ffffff;
+    margin-left: 0;
+    margin-right: 0;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2.25rem;
+    margin: 30px 2px 0;
+    line-height: 1.1;
+    padding: 0;
+    display: block;
+}
+.sectionA3 p{
+    font-style: italic;
+    color: white;
+    column-gap: 1em;
+}
+ .sectionA3 .button3 button{
+    background-color: #ffffff !important;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-top: 20px;
+    display: table;
+    cursor: pointer;
+    border: 0 none transparent;
+    outline-width: 0;
+    font-style: initial;
+    white-space: nowrap;
+    user-select: none;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 0;
+    align-self: flex-start;
+    color:  RGB(252, 154, 76);
+    text-transform: uppercase; 
+      
+}
+.sectionA3 .button3 button:hover{
+    color: cyan;
+}
+
+.footer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    row-gap: 20px;
+    margin-bottom: 20px;
+}
+
+.footer1{
+    background: RGB(51, 51, 51);
+}
+
+.footer1 p{
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+.sectionA3:hover{
+    color: aqua;
+}
+@media screen and (max-width:480px) {
+    .navbar1 img{
+        display: none;
+    }
+    .navbar h1{
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .navbar{
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+    }
+    .sectionB{
+        flex-direction: column;
+        row-gap: 20px;
+        padding: 10px;
+    }
+    .footer{
+        flex-direction: column;
+        row-gap: 20px;
+
+    }
+}
